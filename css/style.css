@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: linear-gradient( 45deg, #27dbe9, #e3e67d);
+	height: 100vh;
+}
+.Menu-Bar{
+	text-align: center;
+	background: grey;
+	height: 60px;
+	line-height: 60px;
+	margin: 30px 40px;
+	border: 2px solid black;
+}
+.Menu-Bar ul li {
+	list-style: none;
+	display: inline-block;
+	word-spacing: 15px;
+} 
+.Menu-Bar ul li a {
+    color: white;
+    font-size: 30px;
+    font-style: none;
+}
+.Menu-Bar ul {
+	word-spacing: 200px;
+}
+.logoimg{
+	position: fixed; 
+    right: -80px;
+}
+.facebook, .twitter,.youtube{
+	position: fixed; 
+    right: -80px;
+    transition: 0.5s ease-in-out;
+}
+.facebook{
+	position: fixed;
+    top: 200px;
+}
+.twitter{
+	position: fixed;
+    top: 280px;
+}
+.youtube{
+	position: fixed;
+    top: 360px;
+}
+.facebook:hover{
+	right: 0px;
+    transition: 0.5s ease-in-out;
+}
+.twitter:hover{
+	right: 0px;
+    transition: 0.5s ease-in-out;
+}
+.youtube:hover{
+	right: 0px;
+    transition: 0.5s ease-in-out;
+}
+.coverimg{
+	background: url(../img/lake.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	background-repeat: no-repeat;
+	margin: 30px 40px;
+}
+.descrpt{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 223px;
+    left: 567px;
+}
+.welcome{
+	text-align: center;
+	color: white;
+    display: block;
+    line-height: 200px;
+    position: absolute;
+    bottom: 101px;
+    left: 558px;
+}
+form{
+	display: block;
+	text-align: center;
+}
+form .call{
+	border: none;
+	color: black;
+	align-content: center;
+	margin: 10px 10px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 125px;
+    left: 600px;
+}
+.subscribe{
+	width: 50%;
+    border: 1px solid white;
+    margin: 60px auto;
+    text-align: center;
+    color: black;
+}
+form .shortcut{
+    width: 30%;
+    margin: 20px;
+    margin-left: 60px;
+    padding: 7px;
+    outline: none;
+    border-radius: 4px;
+    border-style: none
+}
+form .register{
+	padding: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.pos{
+	margin: 10px auto;
+	text-align: center;
+}
+.pos img{
+    width: 450px;
+    height: 300px;
+    position: relative;   
+}
+.last{
+	text-align: center;
+	position: absolute;
+	bottom: -434px;
+    left: 460px;
+    color: white;
+	
+}
